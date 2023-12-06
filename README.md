@@ -1,5 +1,5 @@
 # QuickQwerty
 
-Click [Here](https://nickbelb.github.io/QuickQwerty/) to see a demo
+Click [Here](https://nickbelb.github.io/cookie-project/) to see a demo
 
 
