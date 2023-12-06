@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="v1ewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Nicolas Beltran">
+        <meta name="description" content="Nicolas Beltran: Web developer">
+        <link rel="stylesheet" href="./assets/styles/base.css" media="all">
+        <script src="./assets/scripts/app.js" type="module" defer></script>
+        <title>cookies</title>
+    </head>
+    <body>
+        <main class="main">
+            <div class="container flex-center-column">
+                <p class="message">
+                 A <span class="green">Cookie</span> is a small piece of data stored on the user's computer by the web browser. 
+                 Cookies are often used to <span class="red"> store information</span> about the user or their preferences, 
+                 and they can be accessed and modified through <span class="purple">Javascript</span>
+                </p>
+            </div>
+        </main>
+        <div class="dialog-box cookies-box flex-center hidden ">
+            <h2>Cookies</h2>
+            <p>We use cookies to improve your experience on our website.By clicking "accept" 
+                you agree to use cookies for marketing and analysis purposes</p>
+            <div class=" buttons-section flex-center-space-between">
+                <button class="accept-btn">Accept</button>
+                <button class="settings-btn">Settings</button>
+            </div>
+        </div>
+        <div class="dialog-box settings-box flex-center hidden">
+            <h2>Settings</h2>
+                <div class="toogle-button flex-center-space-between">
+                    <label class="title">Browser</label>
+                    <label class="switch">
+                        <input type="checkbox" class="browser-cookie" value="browser">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="toogle-button flex-center-space-between">
+                    <label class="title">Operating system</label>
+                    <label class="switch">
+                        <input type="checkbox" class="browser-cookie" value="os">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="toogle-button flex-center-space-between">
+                    <label class="title">Screen width</label>
+                    <label class="switch">
+                        <input type="checkbox" class="browser-cookie" value="width">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="toogle-button flex-center-space-between ">
+                    <label class="title">Screen height</label>
+                    <label class="switch">
+                        <input type="checkbox" class="browser-cookie" value="height">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <button class="save-button">Save preferences</button>
+        </div>
+    </body>
+</html>
